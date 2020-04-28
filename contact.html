@@ -1,0 +1,73 @@
+<!-------w--------
+
+    Assignment Final Project
+    Name: Sean Piche
+    Date: April 27th 2020
+    Description:Html for my contact form.
+
+----------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src = "formvalidation.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dynasty Building by the Tuscolum Family!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Dynastic takeover starter packs.</a></li>
+                <li><a href="contact.html">Contact for free salvation.</a></li>
+            </ul>
+        </nav>
+    </header>
+        <form id="contactForm"
+        action="index.html"
+        method="post">
+         <fieldset id="Sheriff">
+        <legend>Contact Information</legend>
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Josepi Krakowski" />
+                <p class="contactInfoError error" id="name_error">* Required Field.</p>
+            </li>
+            <li>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="ex.(666) 666 6666" />
+                <p class="contactInfo error" id="phone_error">* Invalid phone number.</p>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="ex.larrygumbo@conspiracy.gov"/>
+                <p class="contactInfo error" id="email_error">* Invalid email address.</p>
+            </li>
+            <li>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" rows="5" placeholder="You guys are the very best!"></textarea>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+            </li>
+        </ul>
+    </fieldset>
+    </form>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Dynastic takeover starter packs.</a></li>
+                <li><a href="contact.html">Contact for free salvation.</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+

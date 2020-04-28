@@ -1,0 +1,168 @@
+/*********************************************
+    Assignment Final Project
+    Name: Sean Piche
+    Date: April 27th 2020
+    Description:Css for my final project.
+
+**********************************************/
+
+html, head, body, header div, nav,li,ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 10px;
+	background: #70221B;
+}
+
+html, head, body, header div, nav{
+	margin: 0px;
+	padding: 0px;
+}
+ul img{
+	display: block;
+	margin: 0px;
+	margin: auto;
+	padding-top: 10px;
+	width: 300px;
+	height: 300px;
+}
+body{
+	color: #F8E1BE;
+	background: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	margin: auto;
+}
+p{
+	margin: auto;
+	width: 300px;
+	color: #49120D;
+	background: #F8E1BE;
+	padding: 5px;
+}
+nav ul{
+	background: #CF705B;
+	justify-content: space-between;
+}
+a:link{
+	color: red;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	background: #BA5516;
+}
+ul{
+	color: black;
+	margin: 5px;
+	background: #F8E1BE;
+}
+ul ul{
+	width: 50%;
+	margin: auto;
+	color: #DE782A;
+}
+ul ul li{
+	padding-top: 30px;
+}
+footer nav ul{
+	display: flex;
+	flex-direction: row;
+	background-color: #F1BF6A;
+	font-size: 0.7em;
+}
+
+
+label{
+    text-align: left;
+    width: 30%;
+    float: left;
+    border: 2px solid #000;
+}
+input:focus{
+	background: pink;
+}
+input{
+    font-style: oblique;
+    width: 40%;
+}
+
+fieldset ul{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    list-style: none;
+}
+@media(min-width: 768px){
+	
+	h1,h2,h3,h4,h5,h6{
+	padding: 20px;
+	}
+
+	html, head, body, header div, nav{
+		margin: 0px;
+		padding: 0px;
+	}
+	header{
+		padding: 10px;
+	}
+	ul img{
+		padding: 10px;
+		width: 200px;
+		height: 200px;
+	}
+	body{
+		color: #F8E1BE;
+		background: url("images/background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 70%;
+		margin: auto;
+	}
+	p{
+		padding: 0px;
+		width: 100%;
+		color: #49120D;
+		background: #F8E1BE;
+	}
+	nav ul{
+		padding: 20px;
+		display: flex;
+		align-items: flex-end;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	ul{
+		color: black;
+		margin: 10px;
+		display: flex;
+		background: #F8E1BE;
+	}
+	ul ul{
+		margin: 0px;
+		color: #DE782A;
+		flex-direction: column;
+	}
+	ul ul li{
+		padding-top: 30px;
+	}
+
+	footer nav ul{
+		background-color: #F1BF6A;
+		padding: 5px 10px 5px 10px;
+		font-size: 0.7em;
+	}
+
+}
